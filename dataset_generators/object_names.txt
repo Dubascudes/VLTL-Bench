@@ -1,0 +1,80 @@
+person: individual, human, figure, adult human, human being, guy, girl, woman, man
+bicycle: bike, cycle, manual bike, mountain bike
+car: vehicle, automobile, ride, engine-powered vehicle, buggy
+motorbike: motorcycle, two-wheeled vehicle, motorized cycle, chopper, Harley
+aeroplane: aircraft, plane, airliner, jet, warplane, flying vehicle, winged vehicle
+bus: vehicle, coach, transit, shuttle, motorbus, people mover
+train: locomotive, railway, rail vehicle, wheelless vehicle, subway, train cart
+truck: lorry, hauler, cargo vehicle, transport vehicle
+boat: vessel, ship, craft, water vehicle, water craft, sail boat
+traffic light: signal, light, stoplight, road signal, traffic signal, vehicle control, street signal, crossing signal
+fire hydrant: hydrant, emergency pump, water pump, emergency hydrant, red spout, fire safety device, water fixture
+stop sign: red sign, stop indicator, safety marker, road sign, red hexagon
+parking meter: meter, pay station, payment machine, fee collector, parking timer, coin meter, parking pay station, digital pay station, metered device, payment terminal
+bench: long chair, multi-person seat, pew, stall
+bird: avian, winged animal, feathered animal, ornithological species
+cat: feline, kitty, mouser, purring animal
+dog: canine, puppy, pup, hound, mutt
+horse: equine, pony, steed, saddled animal, cavalry animal
+sheep: lamb, ewe, ram, woolly animal, flock animal, grazing animal, livestock, farming animal
+cow: bovine, bull, heifer, farm animal, grazing animal, milk producer, cattle
+elephant: pachyderm, tusked animal, large mammal, trunked mammal
+bear: ursid, grizzly, brown bear, black bear, polar bear
+zebra: striped horse, striped equine, black and white animal
+giraffe: long-necked animal, spotted animal, large herbivore, tall equine
+backpack: bag, rucksack, knapsack, book bag, travel pack, school bag, back storage
+umbrella: parasol, rain shade, sunshade, rain protector, canopy, weather shield, rain cover, rain guard
+handbag: purse, clutch, shoulder bag, tote, satchel
+tie: neckwear, bow tie, necktie, clip-on
+suitcase: luggage, bag, travel case, carry-on, travel bag, rolling bag, duffel bag, check-in luggage, large container
+frisbee: disk, flying disc, flying toy, sport disc, plastic disk, throwing disc, discus
+skis: winter sport accessory, snow glider, snow traverser, snow shoes, snow skis
+snowboard: snow skateboard, snow rider, snow surfboard, mountain board
+sports ball: ball, football, basketball, baseball, volleyball, soccer ball, tennis ball, ping pong ball, hockey puck, cricket ball, golf ball, handball, softball, lacrosse ball, billiard ball, paddle ball, pigskin, pickle ball
+kite: wind soarer, sky sailor, sky craft
+baseball bat: bat, sports bat, baseball equipment, batting stick, batting equipment
+baseball glove: glove, mitt, fielding equipment, bigger hand
+skateboard: ground board, deck, longboard, penny board, plank with wheels, pavement skater
+surfboard: water board, surf gear, surf deck, wave board, ocean board, long water plank
+tennis racket: racket, tennis gear, ball paddle, racquet, stringed racket
+bottle: fluid container, flask, fluid vessel, jar, drink bottle, liquid holder
+wine glass: wine vessel, stemmed glass, alcohol holder, glassware, wine ware, glass for alcoholic beverage
+cup: mug, drinking cup, beverage cup, cup for drinks, tumbler
+fork: pronged utensil, meat utensil, four-pronged utensil
+knife: flat utensil, cutting utensil, off-hand utensil
+spoon: curved utensil, soup-eating utensil, cupping utensil
+bowl: large cup, soup container, ice cream container, indented kitchenware
+banana: yellow fruit, tropical fruit, sweet yellow fruit, fruit with high potassium content, curved fruit
+apple: red fruit, sweet fruit, tree fruit, fruit that makes cider
+sandwich: square food, bread and filling, meat between bread, triangular bread
+orange: citrus fruit, round fruit, circular fruit, sour fruit, orange-colored fruit, tree fruit
+broccoli: tree vegetable, stalky vegetable, florets, green vegetable
+carrot: orange vegetable, eyesight increaser, long vegetable, straight vegetable, cylindrical vegetable, root vegetable
+hot dog: sausage in a bun, grilled sausage, sausage sandwich, bunned sausage, dog, glizzy
+pizza: Italian dish, savory bread, cheese pie, cheese and meat pie, circular food
+donut: fried dough, fried dough with sugar, dough with sugar, dough ring, sweet dough ring, sweet dough, circular pastry
+cake: dessert, sweet pastry, layered dessert, baked good, slice
+chair: seat, recliner, armchair, stool, high chair, high top
+sofa: couch, seat, long seat, lounger, upholstered seat
+potted plant: plant, houseplant, indoor plant, potted greenery, garden plant
+bed: sleeping surface, sleeping furniture, bedding, mattress
+dining table: eating table, meal table, table for meals, table with chairs, eating surface, family table, meal surface, food table, rectangular table
+toilet: bathroom fixture, restroom item, lavatory, WC, personal hygiene fixture, sanitary fixture
+tv monitor: screen, display, television, monitor, TV screen, visual display, video monitor, LED screen, LCD screen, TV display
+laptop:  computer, portable computer, portable device, mobile computer, laptop computer, portable PC
+mouse: input device, computer mouse, pointing device, cursor controller, desktop mouse, computer accessory, clicker, optical mouse
+remote: controller, remote control, device controller, TV remote, electronic remote, remote device, handheld controller, wireless remote
+keyboard: typing device, keypad, typing tool, input board, typing pad, key controller
+cell phone: phone, mobile phone, smartphone, cellular device, mobile device, handheld device, smart device, wireless phone, touchscreen phone, personal phone, communication device
+microwave: kitchen appliance, counter appliance, cooking device, quick cooker, food warmer, countertop oven, heat box, small oven
+oven: baking oven, cooking oven, baking device, baking unit, cooking device, large food heater
+toaster: bread warmer, toast maker, two-slice unit
+sink: water dispenser, food washer, hand washer
+refrigerator: food cooler, food storer, food saver, cold box, ice box
+book: word bank, volume, tome, publication, novel, journal diary, pad, word pad
+clock: time teller, timepiece, timekeeper, timer, chronometer, circular timer
+vase: ceramic, pottery, art piece, flower holder
+scissors: cutter, splicer, shears
+teddy-bear: stuffed animal, stuffed bear, toy, sleep aid
+hair-drier: portable air device, water evaporator, air blower, hair blower
+toothbrush: teeth cleaner, cavity preventer, hygiene brush, mouth hygiene brush, plaque remove

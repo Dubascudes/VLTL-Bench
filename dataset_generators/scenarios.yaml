@@ -1,0 +1,129 @@
+# ------------------------------------------------------------------------------
+# Scenario configuration for the NL↔LTL dataset generator
+#
+# A scenario block contains:
+#   locations:   admissible place names written with underscores
+#
+#   actions:     every verb the agent may execute, specified as
+#                  <verb>:
+#                      role:    ego | <target‑type>
+#                      params:  [] | [item] | [location] | [ego] | ...
+#
+#                ── Interpretation of param kinds ─────────────────────────────
+#                  item       – an arbitrary object from object_names.txt
+#                  location   – one of the *locations* listed in this scenario
+#                  ego        – the agent itself (for zero‑arg ego actions)
+#                  any other  – canonical name of a target class (e.g. person)
+#
+#   targets:     entity classes the agent reasons about
+#                  <type>:
+#                      properties: [state‑var, …]     # observable booleans / enums
+# ------------------------------------------------------------------------------
+warehouse:
+  locations: [loading_dock, shelf]
+
+  actions:
+    # ego‑only ---------------------------------------------------------------
+    idle:
+      role:    ego
+      params:  []                  # idle()
+
+    get_help:
+      role:    ego
+      params:  []                  # get_help()
+
+    # one‑argument (item) ----------------------------------------------------
+    search:
+      role:    ego
+      params:  [item]              # search(item)
+
+    pickup:
+      role:    ego
+      params:  [item]              # pickup(item)
+
+    # two‑argument (item, destination) --------------------------------------
+    deliver:
+      role:    ego
+      params:  [item, location]    # deliver(item, location)
+
+
+
+  targets:
+    item:
+      properties: [name]           # e.g. item.name == "teddy_bear" (taken from coco classes in object_names.txt)
+
+
+
+traffic_light:
+  locations: [north, south, east, west]
+
+  actions:
+    # ego‑only ---------------------------------------------------------------
+    get_help:
+      role:    ego
+      params:  []                        # get_help()
+
+    # control a traffic light -----------------------------------------------
+    change:
+      role:    ego
+      params:  [light, color]            # change(light_id, color)
+
+    record:
+      role:    ego
+      params:  [traffic_target, lane]
+    photo:
+      role:    ego
+      params:  [traffic_target, lane]
+
+  targets:
+    light:
+      properties: [position, color]      # position ∈ {north,…}, color ∈ {red,yellow,green}
+
+    pedestrian:
+      properties: [position, status]     # status ∈ {waiting, crossing}
+
+    car:
+      properties: [lane, speed]
+
+
+
+search_and_rescue:
+  locations: [home_base, structure]
+
+  actions:
+    # ego‑only ---------------------------------------------------------------
+    go_home:
+      role:    ego
+      params:  []                        # go_home()
+
+    get_help:
+      role:    ego
+      params:  []                        # get_help()
+
+    # person‑centred actions -------------------------------------------------
+    communicate:
+      role:    ego
+      params:  [person]                  # communicate(person)
+
+    deliver_aid:
+      role:    ego
+      params:  [person]                  # deliver_aid(person)
+
+    # threat‑centred actions -------------------------------------------------
+    record:
+      role:    ego
+      params:  [sr_target]
+    photo:
+      role:    ego
+      params:  [sr_target]
+      
+    avoid:
+      role:    ego
+      params:  [threat]                  # avoid(threat)
+
+  targets:
+    person:
+      properties: [injured, trapped, safe]
+
+    threat:
+      properties: [active, neutralised]
